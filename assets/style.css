@@ -12,7 +12,6 @@ body {
   width: auto;
   height: 500px;
   background-position: 100%;
-  overflow: hidden;
 }
 
 .head .container {
@@ -96,7 +95,7 @@ i {
   .head .container {
     width: 350px !important;
     height: 420px;
-    margin-top: 80px;
+    margin-top: 50px !important;
   }
   .head .container .searching .search {
     width: 200px;
