@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  text-decoration: none !important;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-image: url(./img/unsplash_L95xDkSSuWw.png);
+  background-size: cover;
+  width: auto;
+  height: 500px;
+  background-position: 100%;
+  overflow: hidden;
+}
+
+.head .container {
+  width: 800px;
+  height: 400px;
+  background: linear-gradient(0deg, #000000, #000000), #000000;
+  opacity: 0.8;
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 160px;
+}
+.head .container .searching {
+  text-align: center !important;
+  padding-top: 30px;
+}
+.head .container .searching .search {
+  width: 300px;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 12px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), #585858;
+  opacity: 0.5;
+  color: white;
+  border: none !important;
+}
+.search::-webkit-input-placeholder {
+  color: aliceblue;
+}
+
+.head .container .searching .btn {
+  width: 50px !important;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), #585858;
+  opacity: 1;
+}
+i {
+  color: aliceblue;
+}
+.head .container .weather {
+  margin: 30px 0 0 30px;
+  color: white;
+}
+.head .container .weather .place-title {
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-weight: 600;
+}
+.head .container .weather .temprature {
+  color: rgb(255, 255, 255);
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.description {
+  text-transform: capitalize !important;
+  margin-left: 8px;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+.codeby {
+  color: rgb(168, 167, 167);
+  margin-top: 30px;
+  text-align: center;
+}
+.bi-heart-fill {
+  color: rgb(199, 0, 0);
+}
+@media (max-width: 576px) {
+  body {
+    background-image: url(./img/unsplash_L95xDkSSuWw.png);
+    background-size: cover;
+    width: auto;
+    height: 800px;
+    background-position: 100%;
+    overflow: hidden;
+  }
+
+  .head .container {
+    width: 350px !important;
+    height: 420px;
+  }
+  .head .container .searching .search {
+    width: 200px;
+  }
+  .head .container .weather .temprature {
+    margin-bottom: 10px;
+  }
+}
