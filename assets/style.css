@@ -96,6 +96,7 @@ i {
   .head .container {
     width: 350px !important;
     height: 420px;
+    margin-top: 80px;
   }
   .head .container .searching .search {
     width: 200px;
