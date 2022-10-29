@@ -78,6 +78,7 @@ i {
   color: rgb(168, 167, 167);
   margin-top: 30px;
   text-align: center;
+  font-size: 15px !important;
 }
 .bi-heart-fill {
   color: rgb(199, 0, 0);
