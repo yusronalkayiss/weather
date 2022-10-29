@@ -21,7 +21,6 @@ body {
   opacity: 0.8;
   border-radius: 20px;
   margin: auto;
-  margin-top: 130px;
 }
 .head .container .searching {
   text-align: center !important;
@@ -82,6 +81,9 @@ i {
 .bi-heart-fill {
   color: rgb(199, 0, 0);
 }
+.head .container .weather .city {
+  color: rgb(207, 231, 252) !important;
+}
 @media (max-width: 576px) {
   body {
     background-image: url(./img/unsplash_L95xDkSSuWw.png);
@@ -95,7 +97,7 @@ i {
   .head .container {
     width: 350px !important;
     height: 420px;
-    margin-top: 2000px !important;
+    margin-top: 20px !important;
   }
   .head .container .searching .search {
     width: 200px;
